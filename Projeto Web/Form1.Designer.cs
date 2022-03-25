@@ -109,14 +109,13 @@ namespace Projeto_Web
             // 
             // Animebtn
             // 
-            this.Animebtn.BackColor = System.Drawing.Color.CornflowerBlue;
             this.Animebtn.Dock = System.Windows.Forms.DockStyle.Top;
             this.Animebtn.Location = new System.Drawing.Point(0, 105);
             this.Animebtn.Name = "Animebtn";
             this.Animebtn.Size = new System.Drawing.Size(154, 41);
             this.Animebtn.TabIndex = 5;
             this.Animebtn.Text = "Animes";
-            this.Animebtn.UseVisualStyleBackColor = false;
+            this.Animebtn.UseVisualStyleBackColor = true;
             // 
             // Seriesbtn
             // 
