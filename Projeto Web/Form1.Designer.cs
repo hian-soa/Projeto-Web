@@ -30,15 +30,15 @@ namespace Projeto_Web
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.Perfilbtn = new System.Windows.Forms.Button();
+            this.Amigosbtn = new System.Windows.Forms.Button();
+            this.Pesquisarbtn = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.Solicitacoesbtn = new System.Windows.Forms.Button();
             this.Animebtn = new System.Windows.Forms.Button();
             this.Seriesbtn = new System.Windows.Forms.Button();
             this.Filmesbtn = new System.Windows.Forms.Button();
             this.DropdownMenu = new System.Windows.Forms.ComboBox();
-            this.Pesquisarbtn = new System.Windows.Forms.TextBox();
-            this.Amigosbtn = new System.Windows.Forms.Button();
-            this.Perfilbtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -48,12 +48,39 @@ namespace Projeto_Web
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel1.Controls.Add(this.Perfilbtn);
             this.panel1.Controls.Add(this.Amigosbtn);
-            this.panel1.Controls.Add(this.Pesquisarbtn);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(834, 40);
             this.panel1.TabIndex = 0;
+            // 
+            // Perfilbtn
+            // 
+            this.Perfilbtn.Dock = System.Windows.Forms.DockStyle.Right;
+            this.Perfilbtn.Location = new System.Drawing.Point(690, 0);
+            this.Perfilbtn.Name = "Perfilbtn";
+            this.Perfilbtn.Size = new System.Drawing.Size(75, 40);
+            this.Perfilbtn.TabIndex = 2;
+            this.Perfilbtn.Text = "Perfil";
+            this.Perfilbtn.UseVisualStyleBackColor = true;
+            // 
+            // Amigosbtn
+            // 
+            this.Amigosbtn.Dock = System.Windows.Forms.DockStyle.Right;
+            this.Amigosbtn.Location = new System.Drawing.Point(765, 0);
+            this.Amigosbtn.Name = "Amigosbtn";
+            this.Amigosbtn.Size = new System.Drawing.Size(69, 40);
+            this.Amigosbtn.TabIndex = 1;
+            this.Amigosbtn.Text = "Amigos";
+            this.Amigosbtn.UseVisualStyleBackColor = true;
+            // 
+            // Pesquisarbtn
+            // 
+            this.Pesquisarbtn.Location = new System.Drawing.Point(345, 195);
+            this.Pesquisarbtn.Name = "Pesquisarbtn";
+            this.Pesquisarbtn.Size = new System.Drawing.Size(100, 23);
+            this.Pesquisarbtn.TabIndex = 0;
+            this.Pesquisarbtn.Text = "Pesquisar";
             // 
             // panel2
             // 
@@ -118,34 +145,6 @@ namespace Projeto_Web
             this.DropdownMenu.Size = new System.Drawing.Size(154, 23);
             this.DropdownMenu.TabIndex = 2;
             // 
-            // Pesquisarbtn
-            // 
-            this.Pesquisarbtn.Location = new System.Drawing.Point(337, 9);
-            this.Pesquisarbtn.Name = "Pesquisarbtn";
-            this.Pesquisarbtn.Size = new System.Drawing.Size(100, 23);
-            this.Pesquisarbtn.TabIndex = 0;
-            this.Pesquisarbtn.Text = "Pesquisar";
-            // 
-            // Amigosbtn
-            // 
-            this.Amigosbtn.Dock = System.Windows.Forms.DockStyle.Right;
-            this.Amigosbtn.Location = new System.Drawing.Point(765, 0);
-            this.Amigosbtn.Name = "Amigosbtn";
-            this.Amigosbtn.Size = new System.Drawing.Size(69, 40);
-            this.Amigosbtn.TabIndex = 1;
-            this.Amigosbtn.Text = "Amigos";
-            this.Amigosbtn.UseVisualStyleBackColor = true;
-            // 
-            // Perfilbtn
-            // 
-            this.Perfilbtn.Dock = System.Windows.Forms.DockStyle.Right;
-            this.Perfilbtn.Location = new System.Drawing.Point(690, 0);
-            this.Perfilbtn.Name = "Perfilbtn";
-            this.Perfilbtn.Size = new System.Drawing.Size(75, 40);
-            this.Perfilbtn.TabIndex = 2;
-            this.Perfilbtn.Text = "Perfil";
-            this.Perfilbtn.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -153,12 +152,13 @@ namespace Projeto_Web
             this.ClientSize = new System.Drawing.Size(834, 451);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.Pesquisarbtn);
             this.Name = "Form1";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
