@@ -110,7 +110,7 @@ namespace Projeto_Web
             // Animebtn
             // 
             this.Animebtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Animebtn.ForeColor = System.Drawing.Color.Crimson;
+            this.Animebtn.ForeColor = System.Drawing.Color.DarkCyan;
             this.Animebtn.Location = new System.Drawing.Point(0, 105);
             this.Animebtn.Name = "Animebtn";
             this.Animebtn.Size = new System.Drawing.Size(154, 41);
