@@ -48,6 +48,7 @@ namespace Projeto_Web
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel1.Controls.Add(this.Perfilbtn);
             this.panel1.Controls.Add(this.Amigosbtn);
+            this.panel1.Controls.Add(this.Pesquisarbtn);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -76,7 +77,7 @@ namespace Projeto_Web
             // 
             // Pesquisarbtn
             // 
-            this.Pesquisarbtn.Location = new System.Drawing.Point(480, 231);
+            this.Pesquisarbtn.Location = new System.Drawing.Point(337, 9);
             this.Pesquisarbtn.Name = "Pesquisarbtn";
             this.Pesquisarbtn.Size = new System.Drawing.Size(100, 23);
             this.Pesquisarbtn.TabIndex = 0;
@@ -152,13 +153,12 @@ namespace Projeto_Web
             this.ClientSize = new System.Drawing.Size(834, 451);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.Pesquisarbtn);
             this.Name = "Form1";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
