@@ -79,7 +79,7 @@ namespace Projeto_Web
             // 
             this.Pesquisarbtn.Location = new System.Drawing.Point(337, 9);
             this.Pesquisarbtn.Name = "Pesquisarbtn";
-            this.Pesquisarbtn.Size = new System.Drawing.Size(100, 23);
+            this.Pesquisarbtn.Size = new System.Drawing.Size(127, 23);
             this.Pesquisarbtn.TabIndex = 0;
             this.Pesquisarbtn.Text = "Pesquisar";
             // 
