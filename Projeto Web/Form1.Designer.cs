@@ -39,6 +39,7 @@ namespace Projeto_Web
             this.Seriesbtn = new System.Windows.Forms.Button();
             this.Filmesbtn = new System.Windows.Forms.Button();
             this.DropdownMenu = new System.Windows.Forms.ComboBox();
+            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -48,7 +49,6 @@ namespace Projeto_Web
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel1.Controls.Add(this.Perfilbtn);
             this.panel1.Controls.Add(this.Amigosbtn);
-            this.panel1.Controls.Add(this.Pesquisarbtn);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -88,6 +88,7 @@ namespace Projeto_Web
             this.panel2.BackColor = System.Drawing.SystemColors.ControlDark;
             this.panel2.Controls.Add(this.Solicitacoesbtn);
             this.panel2.Controls.Add(this.Animebtn);
+            this.panel2.Controls.Add(this.Pesquisarbtn);
             this.panel2.Controls.Add(this.Seriesbtn);
             this.panel2.Controls.Add(this.Filmesbtn);
             this.panel2.Controls.Add(this.DropdownMenu);
@@ -109,13 +110,14 @@ namespace Projeto_Web
             // 
             // Animebtn
             // 
+            this.Animebtn.BackColor = System.Drawing.Color.CornflowerBlue;
             this.Animebtn.Dock = System.Windows.Forms.DockStyle.Top;
             this.Animebtn.Location = new System.Drawing.Point(0, 105);
             this.Animebtn.Name = "Animebtn";
             this.Animebtn.Size = new System.Drawing.Size(154, 41);
             this.Animebtn.TabIndex = 5;
             this.Animebtn.Text = "Animes";
-            this.Animebtn.UseVisualStyleBackColor = true;
+            this.Animebtn.UseVisualStyleBackColor = false;
             // 
             // Seriesbtn
             // 
@@ -146,18 +148,25 @@ namespace Projeto_Web
             this.DropdownMenu.Size = new System.Drawing.Size(154, 23);
             this.DropdownMenu.TabIndex = 2;
             // 
+            // monthCalendar1
+            // 
+            this.monthCalendar1.Location = new System.Drawing.Point(607, 40);
+            this.monthCalendar1.Name = "monthCalendar1";
+            this.monthCalendar1.TabIndex = 2;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(834, 451);
+            this.Controls.Add(this.monthCalendar1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -174,6 +183,10 @@ namespace Projeto_Web
         private System.Windows.Forms.Button Perfilbtn;
         private System.Windows.Forms.Button Amigosbtn;
         private System.Windows.Forms.TextBox Pesquisarbtn;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.MonthCalendar monthCalendar1;
     }
 }
 
